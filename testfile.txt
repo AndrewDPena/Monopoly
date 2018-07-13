@@ -1,0 +1,40 @@
+Go:Go:0
+Mediterranean Avenue:Purple:60
+Community Chest:Comm:0
+Baltic Avenue:Purple:60
+Income Tax:Tax:0
+Reading Railroad:Rail:200
+Oriental Avenue:Light Blue:100
+Chance:Chnc:0
+Vermont Avenue:Light Blue:100
+Connecticut Avenue:Light Blue:120
+Jail:Jail:0
+St. Charles Place:Pink:140
+Electric Company:Util:150
+States Avenue:Pink:140
+Virginia Avenue:Pink:160
+Pennsylvania Railroad:Rail:200
+St. James Place:Orange:180
+Community Chest:Comm:0
+Tenessee Avenue:Orange:180
+New York Avenue:Orange:200
+Free Parking:Free:0
+Kentucky Avenue:Red:220
+Chance:Chnc:0
+Indiana Avenue:Red:220
+Illinois Avenua:Red:240
+B. & O. Railroad:Rail:200
+Atlantic Avenue:Yellow:260
+Ventnor Avenue:Yellow:260
+Water Works:Util:150
+Marvin Gardens:Yellow:260
+Go To Jail:Jail:0
+Pacific Avenue:Green:300
+North Carolina Avenue:Green:300
+Community Chest:Comm:0
+Pennsylvania Avenue:Green:320
+Short Line:Rail:200
+Chance:Chnc:0
+Park Place:Blue:350
+Luxury Tax:Tax:0
+Boardwalk:Blue:400
