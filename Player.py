@@ -11,5 +11,5 @@ class Player(object):
     def roll_dice():
         dice = []
         for roll in range(2):
-            dice.append(random.randint(1, 7))
+            dice.append(random.randint(1, 6))
         return dice

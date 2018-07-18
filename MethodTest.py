@@ -1,3 +1,5 @@
+import Player
+
 def merge(first, second):
     result = []
     while first or second:
@@ -21,4 +23,7 @@ def sort(unsorted):
     return merge(sort(unsorted[:midpoint]), sort(unsorted[midpoint:]))
 
 
-print(sort([5, 2, 3, 6, 1, 4]))
+# print(sort([5, 2, 3, 6, 1, 4]))
+
+player = Player.Player(1)
+print(player.roll_dice())

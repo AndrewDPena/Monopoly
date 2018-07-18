@@ -69,11 +69,17 @@ class GameBoard(object):
             print(tile)
 
     def print_count(self):
-        for tile in self.sort(self.tiles):
-            print(tile.count)
+        for tile in self.sort():
+            print(tile.name + " : " + str(tile.count))
+
+    def save_count(self):
+        output = open("output.txt", "w+")
+        for tile in self.sort():
+            output.write(tile.name + " : " + str(tile.count) + '\n')
+        output.close()
 
 
-class TestPush(unittest.TestCase):
+class TestFunctions(unittest.TestCase):
     def test_empty(self):
         test_board = GameBoard()
         self.assertTrue(test_board.empty())
