@@ -16,13 +16,13 @@ Virginia Avenue:Pink:160
 Pennsylvania Railroad:Rail:200
 St. James Place:Orange:180
 Community Chest:Comm:0
-Tenessee Avenue:Orange:180
+Tennessee Avenue:Orange:180
 New York Avenue:Orange:200
 Free Parking:Free:0
 Kentucky Avenue:Red:220
 Chance:Chnc:0
 Indiana Avenue:Red:220
-Illinois Avenua:Red:240
+Illinois Avenue:Red:240
 B. & O. Railroad:Rail:200
 Atlantic Avenue:Yellow:260
 Ventnor Avenue:Yellow:260

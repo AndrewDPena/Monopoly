@@ -6,6 +6,8 @@ class Player(object):
     def __init__(self, num):
         self.num = num
         self.current = None
+        self.account = 1000
+        self.inventory = set()
 
     @staticmethod
     def roll_dice():

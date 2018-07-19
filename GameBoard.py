@@ -93,7 +93,7 @@ class TestFunctions(unittest.TestCase):
         self.assertEqual(test_board.tiles[1].name, "two")
 
     def test_build(self):
-        test_board = GameBoard("testfile.txt")
+        test_board = GameBoard("Monopoly.txt")
         self.assertEqual(test_board.start.name, "Go")
         self.assertEqual(test_board.tiles[1].name, "Mediterranean Avenue")
         self.assertEqual(test_board.tiles[-1].name, "Boardwalk")
