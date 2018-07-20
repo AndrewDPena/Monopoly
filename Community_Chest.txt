@@ -1,0 +1,17 @@
+Advance to Go:0:move_player:
+Bank error:200:pay_player:
+Doctor's fees:-50:pay_player:
+From sale of stock you get $50:50:pay_player:
+Get Out Of Jail Free:"GOTJ":add_inventory:
+Go to Jail:10:move_player:
+Grand Opera Night:50:pay_player:
+Holiday Fund Matures:100:pay_player:
+Income Tax Refund:20:pay_player:
+It's your birthday:10:pay_player:
+Life insurance matures:100:pay_player:
+Pay hospital fees:-100:pay_player:
+Pay school fees:-150:pay_player:
+Receive consultancy fee:25:pay_player:
+You are assessed for repairs:-40:pay_player:
+You win second prize:10:pay_player:
+You inherit:100:pay_player:

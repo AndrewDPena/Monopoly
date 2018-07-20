@@ -1,0 +1,16 @@
+Advance to GO:0:move_player:
+Advance to Illinois Ave.:24:move_player:
+Advance to St. Charles Place:11:move_player:
+Advance to nearest Utility:12:move_player:
+Advance to nearest Railroad:5:move_player:
+Bank pays you dividend:50:pay_player:
+Get out of Jail Free:"GOTJ":add_inventory:
+Go Back 3 Spaces:-3:move_player:
+Go to Jail:10:move_player:
+Make general repairs:-25:pay_player:
+Pay poor tax:-15:pay_player:
+Take a trip to Reading Railroad:5:move_player:
+Take a walk on the Boardwalk:39:move_player:
+You have been elected chairman:-50:pay_player:
+Your building and loan matures:150:pay_player:
+You won a crossword competition:100:pay_player:

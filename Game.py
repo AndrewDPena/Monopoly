@@ -26,11 +26,20 @@ class Game:
         player = self.playerList[player_num-1]
         roll_total = 0
         roll = player.roll_dice()
-        for number in roll:
-            roll_total += number
-        # current_index = self.board.tiles.index(player.current)
-        player.current = (player.current + roll_total) % len(self.board.tiles)
-        self.check_position(player)
+        if roll[0] == roll[1]:
+            player.double_count += 1
+        else:
+            player.double_count = 0
+        if player.double_count == 3:
+            player.current = 10
+        else:
+            for number in roll:
+                roll_total += number
+            # current_index = self.board.tiles.index(player.current)
+            player.current = (player.current + roll_total) % len(self.board.tiles)
+            self.check_position(player)
+            if player.double_count > 0:
+                self.take_turn(player_num)
 
     def check_position(self, player):
         self.board.tiles[player.current].count += 1
@@ -101,3 +110,14 @@ class TestGoToJail(unittest.TestCase):
         test_game.chance.push("Go to nearest Railroad", "5", "move_player")
         test_game.draw_card(test_player)
         self.assertEqual(test_game.playerList[0].current, 25)
+
+    def test_speeding(self):
+        test_game = Game("Monopoly.txt", 1)
+        test_game.chance = Deck.Deck()
+        test_game.community = test_game.chance
+        test_game.chance.push("Test Card", "0", "pay_player")
+        test_player = test_game.playerList[0]
+        test_player.debug = True
+        test_player.double_count = 2
+        test_game.take_turn(1)
+        self.assertEqual(test_player.current, 10)
